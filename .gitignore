@@ -24,3 +24,24 @@ fp-info-cache
 # Exported BOM files
 *.xml
 *.csv
+
+# KiCad backup folders
+*backups/
+module/module-backups/
+
+# KiCad project backup files
+*.zip
+
+# Ignore user-specific project files
+*.kicad_prl
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore library cache
+*-cache.lib
+*-rescue.lib
+
+# Ignore generated folders
+__pycache__/
